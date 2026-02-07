@@ -1,0 +1,39 @@
+/*
+Theme Name: Applause-core
+Author: Takeshi Iwaoka
+Version: 0.1.0
+Text Domain: applause-core
+*/
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.site-header,
+.site-footer {
+  padding: 16px;
+  background: #f5f5f5;
+}
+
+.site-main {
+  padding: 16px;
+}
+
+.site-title {
+  font-size: 1.25rem;
+  margin: 0 0 8px;
+}
+
+.primary-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 12px;
+}
+
+.primary-menu a {
+  text-decoration: none;
+}
