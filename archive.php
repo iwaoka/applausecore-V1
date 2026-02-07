@@ -4,6 +4,10 @@ get_header();
 ?>
 
 <main id="main" class="site-main">
+    <header>
+        <h1><?php the_archive_title(); ?></h1>
+    </header>
+
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : ?>
             <?php the_post(); ?>

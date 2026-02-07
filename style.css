@@ -37,3 +37,17 @@ body {
 .primary-menu a {
   text-decoration: none;
 }
+
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: -9999px;
+  background: #fff;
+  padding: 8px 12px;
+  border: 1px solid #000;
+}
+
+.skip-link:focus {
+  left: 8px;
+  z-index: 1000;
+}
